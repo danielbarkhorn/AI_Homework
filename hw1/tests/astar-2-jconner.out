@@ -1,0 +1,36 @@
+Solution steps: ['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N', 'E', 'N', 'N']
+Solution cost: 49
+Number of states considered: 26
+
+Frontier:
+Pos=(5, 0) Moves=['S', 'W', 'W'] Cost=41
+Pos=(0, 2) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N', 'W'] Cost=47
+Pos=(0, 0) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'W'] Cost=45
+
+Closed List:
+Pos=(7, 1) Moves=[] Cost=0
+Pos=(7, 2) Moves=['N'] Cost=9
+Pos=(6, 1) Moves=['W'] Cost=14
+Pos=(7, 3) Moves=['N', 'N'] Cost=17
+Pos=(6, 2) Moves=['N', 'W'] Cost=14
+Pos=(5, 1) Moves=['W', 'W'] Cost=17
+Pos=(5, 2) Moves=['N', 'W', 'W'] Cost=17
+Pos=(4, 1) Moves=['W', 'W', 'W'] Cost=18
+Pos=(5, 3) Moves=['N', 'W', 'W', 'N'] Cost=19
+Pos=(4, 2) Moves=['N', 'W', 'W', 'W'] Cost=19
+Pos=(4, 3) Moves=['N', 'W', 'W', 'N', 'W'] Cost=20
+Pos=(4, 4) Moves=['N', 'W', 'W', 'N', 'W', 'N'] Cost=21
+Pos=(7, 0) Moves=['S'] Cost=13
+Pos=(7, 4) Moves=['N', 'N', 'N'] Cost=19
+Pos=(3, 1) Moves=['W', 'W', 'W', 'W'] Cost=20
+Pos=(5, 4) Moves=['N', 'W', 'W', 'N', 'N'] Cost=21
+Pos=(6, 4) Moves=['N', 'N', 'N', 'W'] Cost=20
+Pos=(6, 0) Moves=['S', 'W'] Cost=15
+Pos=(3, 0) Moves=['W', 'W', 'W', 'W', 'S'] Cost=22
+Pos=(2, 0) Moves=['W', 'W', 'W', 'W', 'S', 'W'] Cost=39
+Pos=(1, 0) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W'] Cost=44
+Pos=(1, 1) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N'] Cost=45
+Pos=(1, 2) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N'] Cost=46
+Pos=(2, 2) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N', 'E'] Cost=47
+Pos=(2, 3) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N', 'E', 'N'] Cost=48
+Pos=(2, 4) Moves=['W', 'W', 'W', 'W', 'S', 'W', 'W', 'N', 'N', 'E', 'N', 'N'] Cost=49

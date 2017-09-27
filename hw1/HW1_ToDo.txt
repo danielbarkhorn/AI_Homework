@@ -1,0 +1,11 @@
+COEN 266 HW1 ToDo:
+
+X Write cost function
+- Implement search class in astar.py
+- Implement class environment
+X Implement class state
+	Methods
+	___init___
+	___str____
+
+Get it to run

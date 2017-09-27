@@ -1,0 +1,7 @@
+buying:high,low,med,vhigh
+maint:high,low,med,vhigh
+doors:2,3,4,5more
+persons:2,4,more
+lug_boot:big,med,small
+safety:high,low,med
+acceptability:acc,good,unacc,vgood

@@ -1,0 +1,17 @@
+Solution steps: ['E', 'E', 'E', 'N', 'E', 'N', 'N', 'N']
+Solution cost: 30
+Number of states considered: 9
+
+Frontier:
+Pos=(3, 3) Moves=['E', 'E', 'E', 'N', 'E', 'N', 'N', 'W'] Cost=31
+
+Closed List:
+Pos=(0, 0) Moves=[] Cost=0
+Pos=(1, 0) Moves=['E'] Cost=1
+Pos=(2, 0) Moves=['E', 'E'] Cost=18
+Pos=(3, 0) Moves=['E', 'E', 'E'] Cost=23
+Pos=(3, 1) Moves=['E', 'E', 'E', 'N'] Cost=25
+Pos=(4, 1) Moves=['E', 'E', 'E', 'N', 'E'] Cost=27
+Pos=(4, 2) Moves=['E', 'E', 'E', 'N', 'E', 'N'] Cost=28
+Pos=(4, 3) Moves=['E', 'E', 'E', 'N', 'E', 'N', 'N'] Cost=29
+Pos=(4, 4) Moves=['E', 'E', 'E', 'N', 'E', 'N', 'N', 'N'] Cost=30
