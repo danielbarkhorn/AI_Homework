@@ -1,3 +1,5 @@
+# Made by Dan Barkhorn
+
 operators = ['not', 'implies', 'and', 'or', 'biconditional']
 def resolve(A, B):
     vars = dict()
