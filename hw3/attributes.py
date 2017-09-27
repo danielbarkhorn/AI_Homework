@@ -1,3 +1,5 @@
+# Made by Dan Barkhorn
+
 import re
 import sys
 
@@ -78,4 +80,3 @@ class Attributes:
           self.attributes.remove(attr)
     else:
       self.attributes.remove(key)
-

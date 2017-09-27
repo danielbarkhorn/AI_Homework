@@ -1,3 +1,6 @@
+# Made by Dan Barkhorn
+
+
 import copy
 import dataset
 import numpy as np
@@ -36,8 +39,7 @@ class DTree:
     return correct
 
   def dump(self):
-    #self.dumpHelp(self.path, 0)
-    return ""
+    return self.dumpHelp(self.path, 0)
 
   def dumpHelp(self, ls, count):
     if(not isinstance(ls[0], str)):
@@ -118,6 +120,5 @@ class DTree:
       else:
           attr = ls[0][0]
           for i in ls:
-              #print(i)
               if(i[1] == example.get_value(attr)):
                   return self.testStep(example, i[2], classifier)

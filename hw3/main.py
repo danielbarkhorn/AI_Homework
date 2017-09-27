@@ -50,7 +50,7 @@ training_data = dataset.DataSet(args.training_file, all_attributes)
 starting_attrs = copy.copy(all_attributes)
 starting_attrs.remove(classifier)
 dtree = dtree_pkg.DTree(classifier, training_data, starting_attrs)
-print dtree.dump()
+print(dtree.dump())
 
 if args.testing_file:
   testing_data = dataset.DataSet(args.testing_file, all_attributes)
@@ -58,4 +58,3 @@ if args.testing_file:
   print("%d of %d (%.2f%%) of testing examples correctly identified" %
         (correct_results, len(testing_data),
          (float(correct_results) * 100.0)/ float(len(testing_data))))
-

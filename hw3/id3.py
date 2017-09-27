@@ -1,3 +1,5 @@
+# Made by Dan Barkhorn
+
 import copy
 import dataset
 
@@ -10,7 +12,6 @@ class DTree:
     self.attributes = attributes
 
     self.path = self.iteration(self.training_data, self.attributes)
-    #print(self.path)
     return
 
   def test(self, classifier, testing_data):
@@ -20,7 +21,7 @@ class DTree:
     return correct
 
   def dump(self):
-    #self.dumpHelp(self.path, 0)
+    self.dumpHelp(self.path, 0)
     return ""
 
   def dumpHelp(self, ls, count):
